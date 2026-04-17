@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-rest-lists-client-side-solution",
+    "id": "00a5a9a3-bb6a-4504-99e8-550bd198cdb7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-rest-lists description"
+      },
+      "longDescription": {
+        "default": "spfx-rest-lists description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-rest-lists Feature",
+        "description": "The feature that activates elements of the spfx-rest-lists solution.",
+        "id": "6cd644df-ff36-4ea5-802e-1be2f0c1838b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-rest-lists.sppkg"
+  }
+}

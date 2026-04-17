@@ -1,0 +1,23 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "spfx-graph-lists",
+    "environment": "spo",
+    "packageManager": "npm",
+    "useGulp": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "GraphLists",
+    "componentDescription": "Lists all current site lists via Microsoft Graph",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "24.14.1",
+    "sdksVersions": {},
+    "version": "1.22.2",
+    "libraryName": "spfx-graph-lists",
+    "libraryId": "6c5f3822-85ef-4398-90c4-290c722adb36",
+    "solutionShortDescription": "spfx-graph-lists description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  }
+}
