@@ -1,0 +1,23 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "spfx-rest-lists",
+    "environment": "spo",
+    "packageManager": "npm",
+    "useGulp": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "RestLists",
+    "componentDescription": "Lists all current site lists via SharePoint REST",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "24.14.1",
+    "sdksVersions": {},
+    "version": "1.22.2",
+    "libraryName": "spfx-rest-lists",
+    "libraryId": "00a5a9a3-bb6a-4504-99e8-550bd198cdb7",
+    "solutionShortDescription": "spfx-rest-lists description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  }
+}
