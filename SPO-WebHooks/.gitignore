@@ -1,0 +1,70 @@
+# SPO-WebHooks .gitignore
+# Based on the standard .NET .gitignore
+
+## Build outputs
+[Oo]bj/
+[Bb]in/
+out/
+publish/
+
+## NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!**/[Pp]ackages/build/
+*.nuspec
+
+## Visual Studio files
+.vs/
+*.user
+*.suo
+*.userprefs
+*.DotSettings.user
+
+## Rider
+.idea/
+*.sln.iml
+
+## MSBuild
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+## Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage*/
+TestResults/
+
+## NuGet restore
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Build caches
+.dotnet/
+.tools/
+
+## OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## Certificates (never commit private keys or pfx files)
+*.pfx
+*.p12
+*.key
+*.pem
+certs/
+
+## Secrets / environment overrides
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+.env
+.env.*
+secrets.json
