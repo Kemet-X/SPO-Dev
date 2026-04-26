@@ -1,0 +1,48 @@
+# .NET build outputs
+[Oo]bj/
+[Bb]in/
+out/
+publish/
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage*/
+TestResults/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Certificates & secrets
+*.pfx
+*.p12
+*.key
+.env
+.env.*
+secrets.json
+appsettings.Local.json
+appsettings.Production.json
