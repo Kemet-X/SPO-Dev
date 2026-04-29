@@ -43,6 +43,7 @@ desktop.ini
 *.key
 .env
 .env.*
+!.env.example
 secrets.json
 appsettings.Local.json
 appsettings.Production.json

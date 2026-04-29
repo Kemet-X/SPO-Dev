@@ -1,0 +1,42 @@
+{
+  "_comment": "Copy this file to config.json and fill in your values. Never commit config.json to source control.",
+
+  "azure": {
+    "tenantId": "<your-tenant-id-guid>",
+    "subscriptionId": "<your-azure-subscription-id-guid>",
+
+    "servicePrincipal": {
+      "clientId": "<app-registration-client-id-guid>",
+      "clientSecret": "<client-secret-value>",
+      "certificatePath": "",
+      "certificateThumbprint": ""
+    },
+
+    "functionApp": {
+      "resourceGroup": "SPO-Webhooks-RG",
+      "name": "spo-webhook-func",
+      "location": "eastus",
+      "storageAccountName": "spowebhookfuncstg",
+      "runtime": "dotnet",
+      "runtimeVersion": "8"
+    }
+  },
+
+  "sharepoint": {
+    "siteUrl": "https://<tenant>.sharepoint.com/sites/<site>",
+    "listName": "<list-display-name>",
+    "listId": "<list-id-guid>",
+    "webhookClientState": "SecureClientState_ReplaceMe",
+    "webhookExpirationDays": 180
+  },
+
+  "webhook": {
+    "notificationUrl": "https://<function-app>.azurewebsites.net/api/WebhookTrigger?code=<function-key>",
+    "queueName": "sharepoint-notifications"
+  },
+
+  "logging": {
+    "level": "Information",
+    "applicationInsightsConnectionString": "<app-insights-connection-string>"
+  }
+}
